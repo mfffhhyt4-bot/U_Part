@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>U_Part - قطع غيار سيارات</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; background:#f5f5f5; }
+    header { background:#222; color:#fff; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:32px; }
+    nav { background:#333; padding:10px; text-align:center; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-size:18px; }
+    .hero {
+      background:#111 url('https://via.placeholder.com/1200x400?text=U_PART+Auto+Spare+Parts') center/cover no-repeat;
+      color:#fff; padding:120px 20px; text-align:center;
+    }
+    .hero h2 { font-size:40px; margin:0; }
+    .products { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; padding:30px; }
+    .product {
+      background:#fff; width:280px; border-radius:12px; padding:15px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+    .product img { width:100%; border-radius:10px; }
+    .product h3 { margin:10px 0 5px; }
+    .product button {
+      margin-top:10px; padding:10px 20px; border:none;
+      background:#222; color:#fff; cursor:pointer; border-radius:8px;
+    }
+    footer { background:#222; color:#fff; text-align:center; padding:15px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>U_Part</h1>
+    <p>أفضل قطع غيار السيارات بأعلى جودة</p>
+  </header>  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#products">المنتجات</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>  <section class="hero">
+    <h2>كل قطع غيار عربيتك في مكان واحد</h2>
+    <p>أصلي – مضمون – أسعار تنافسية</p>
+  </section>  <section id="products" class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Brake+Pads" />
+      <h3>طقم تيل فرامل</h3>
+      <p>السعر: 450 جنيه</p>
+      <a href="https://wa.me/201234567890?text=عايز+اطلب+المنتج" target="_blank" style="display:inline-block;padding:10px 20px;background:#25D366;color:#fff;border-radius:8px;text-decoration:none;">اطلب عبر واتساب</a>
+    </div><div class="product">
+  <img src="https://via.placeholder.com/300x200?text=Oil+Filter" />
+  <h3>فلتر زيت</h3>
+  <p>السعر: 120 جنيه</p>
+  <a href="https://wa.me/201234567890?text=عايز+اطلب+المنتج" target="_blank" style="display:inline-block;padding:10px 20px;background:#25D366;color:#fff;border-radius:8px;text-decoration:none;">اطلب عبر واتساب</a>
+</div>
+
+<div class="product">
+  <img src="https://via.placeholder.com/300x200?text=Air+Filter" />
+  <h3>فلتر هواء</h3>
+  <p>السعر: 160 جنيه</p>
+  <a href="https://wa.me/201234567890?text=عايز+اطلب+المنتج" target="_blank" style="display:inline-block;padding:10px 20px;background:#25D366;color:#fff;border-radius:8px;text-decoration:none;">اطلب عبر واتساب</a>
+</div>
+
+  </section>  <footer>
+    <p>U_Part © جميع الحقوق محفوظة 2025</p>
+  </footer>
+</body>
+</html>
